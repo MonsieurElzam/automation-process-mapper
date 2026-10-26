@@ -1,0 +1,8 @@
+etape,responsable,duree_min,attente_min,suite
+Réception de la demande,Accueil,10,0,Qualification
+Qualification,Commercial,30,120,Devis
+Devis,Commercial,45,240,Validation direction
+Validation direction,Direction,15,1440,Signature client; Planification
+Signature client,Client,5,2880,Planification
+Planification,Production,20,480,Livraison
+Livraison,Production,240,0,

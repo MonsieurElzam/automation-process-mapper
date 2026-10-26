@@ -1,0 +1,28 @@
+{
+  "name": "automation-process-mapper",
+  "version": "1.0.0",
+  "description": "Cartographie de processus / Process mapper — script Node.js sans dépendance",
+  "type": "module",
+  "license": "MIT",
+  "author": "Elzam MAMAH <ceo@monsieurelzam.com> (https://monsieurelzam.com)",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "automation-process-mapper": "src/process-mapper.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonsieurElzam/automation-process-mapper.git"
+  },
+  "homepage": "https://monsieurelzam.com/scripts",
+  "keywords": [
+    "automation",
+    "cli",
+    "nodejs",
+    "process-mapper"
+  ]
+}
